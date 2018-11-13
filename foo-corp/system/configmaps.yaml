@@ -1,0 +1,10 @@
+kind: Sync
+apiVersion: nomos.dev/v1alpha1
+metadata:
+  name: configmaps
+spec:
+  groups:
+  - kinds:
+    - kind: ConfigMap
+      versions:
+      - version: v1
