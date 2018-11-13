@@ -1,4 +1,4 @@
-kind: NomosConfig
+kind: Repo
 apiVersion: nomos.dev/v1alpha1
 metadata:
   name: config
