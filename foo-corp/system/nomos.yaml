@@ -3,4 +3,4 @@ apiVersion: nomos.dev/v1alpha1
 metadata:
   name: config
 spec:
-  version: "1.0.0"
+  version: "0.1.0"
