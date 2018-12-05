@@ -4,7 +4,7 @@ metadata:
   name: viewers
 subjects:
 - kind: Group
-  name: system:serviceaccounts:audit
+  name: system:serviceaccounts:auditors
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole
