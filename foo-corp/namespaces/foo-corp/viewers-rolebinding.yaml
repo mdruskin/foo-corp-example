@@ -6,6 +6,9 @@ subjects:
 - kind: Group
   name: system:serviceaccounts:auditors
   apiGroup: rbac.authorization.k8s.io
+- kind: User
+  name: fmil@google.com
+  apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole
   name: view
