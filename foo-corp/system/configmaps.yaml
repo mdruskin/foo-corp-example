@@ -6,6 +6,6 @@ spec:
   groups:
   - kinds:
     - kind: ConfigMap
-      mode: inherit
+      hierarchyMode: inherit
       versions:
       - version: v1
