@@ -2,6 +2,8 @@ kind: RoleBinding
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
   name: viewers
+  annotations:
+    nomos.dev/cluster-selector: selector-env-dev
 subjects:
 - kind: Group
   name: system:serviceaccounts:auditors
